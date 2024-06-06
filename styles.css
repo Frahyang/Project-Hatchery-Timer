@@ -10,6 +10,7 @@ body {
 }
 .buttons {
     margin-top: 20px;
+    user-select: none;
 }
 button {
     margin: 0 5px;
