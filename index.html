@@ -11,7 +11,7 @@
     <div class="timer">
         <h1 id="display">20:00</h1>
         <div class="buttons">
-            <button onmousedown="startTimer()" onmouseup="stopTimer()" onmouseleave="stopTimer()">Hold to Run</button>
+            <button onmousedown="startTimer()" onmouseup="stopTimer()" onmouseleave="stopTimer()" ontouchstart="startTimer()" ontouchend="stopTimer()">Hold to Run</button>
             <button onclick="resetTimer()">Reset</button>
         </div>
     </div>
